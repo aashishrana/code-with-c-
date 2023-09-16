@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+//printing number using recursion
 int printNum(int num ) {
     if(num == 0) {
         return 0;
