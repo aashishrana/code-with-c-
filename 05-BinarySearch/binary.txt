@@ -1,0 +1,14 @@
+Element should be in monotonic function (sort)
+
+In Binary search first find the mid 
+Run a loop while(start < end) inside loop compare values 
+ then compare the value (element) with the mid 
+ if the value is equal to mid then return mid
+ if the value is less than mid that means element found in left part
+ again find the mid  of the left part 
+ and then compare with the value if equal to mid then return mid else same process going on
+ and the same if the value is greater then the mid then found in the right part
+
+
+ In binary search time complexity is logn in worst case 
+ n/2^k;
