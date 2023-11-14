@@ -9,3 +9,5 @@ int main() {
     cout << sum << endl;
 
 }
+
+// take input print output
