@@ -7,9 +7,7 @@ void printArr(int arr[], int size) {
     }
 }
 
-
 // Naive approach is to make a temporrary arr and the copy element
-
 int removeDuplicates(int arr[], int size) {
     int temp[size];
     temp[0] = arr[0];
@@ -30,20 +28,17 @@ int removeDuplicates(int arr[], int size) {
 }
 
 
-// Efficent approach
-
+// Efficent approach  gfg
 int remDup(int arr[], int siz) {
-    int rsiz = 1;
+    int result = 1;
     for(int i = 1; i < siz; i++) {
-        if(arr[1] != arr[rsiz - 1]) {
-            arr[rsiz] = arr[i];
-            rsiz++;
+        if(arr[1] != arr[result - 1]) {
+            arr[result] = arr[i];
+            result++;
         }
 
     }
-
-    return rsiz;
-
+    return result;
 }
 
 int main() {
