@@ -2,7 +2,7 @@
 using namespace std;
 
 
-int maxConsecutiveOnes(bool arr[] , int n) {  // Return type is integer but the array type is boolean
+int maxConsecutiveOnes(bool arr[] , int n) {  // Return type is integer but the array type is boolean so arry will be boolean
     int res = 0 , curr = 0;
     for(int i = 0; i < n; i++) {
         if(arr[i] == 0) {
